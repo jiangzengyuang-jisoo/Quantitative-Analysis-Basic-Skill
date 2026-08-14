@@ -1,0 +1,13 @@
+# 需要额外权限时请求批准
+approval_policy = "on-request"
+
+# 允许在当前项目内写入文件；项目外仍受沙箱保护
+sandbox_mode = "workspace-write"
+
+# 使用较高推理强度
+model_reasoning_effort = "high"
+
+# 启用投资研究团队 Agent；最多同时运行 5 个专业角色
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 5
